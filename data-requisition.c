@@ -13,16 +13,5 @@
 #define X 20
 
 // Global Declaration
-int sum(int y);
-
-// main()
-int main(void) {
-    int y = 55;
-    printf("Sum: %d", sum(y));
-    return 0;
-}
 
 // Function X TODO@HuySpring883
-int sum(int y) {
-    return y + X;
-}
