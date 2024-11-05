@@ -10,7 +10,6 @@
 #include <stdio.h>
 
 // Definition
-#define X 20
 
 // Global Declaration
 
