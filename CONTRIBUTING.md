@@ -40,7 +40,7 @@ Each team member should work on a separate branch dedicated to their filter or f
 1. Create a new branch with a descriptive name, e.g., `feature-derivative-filter`:
 
    ```bash
-   git checkout -b feature-derivative-filter
+   git checkout -b branch-filter-name
    ```
 
 2. This branch will be dedicated to your work on the derivative filter (or other assigned filter).
@@ -56,13 +56,13 @@ Each team member should work on a separate branch dedicated to their filter or f
 
    ```bash
    git add .
-   git commit -m "Implemented the derivative filter for Pan-Tompkins algorithm"
+   git commit -m "Comment change."
    ```
 
 2. Push your branch to GitHub:
 
    ```bash
-   git push origin feature-derivative-filter
+   git push origin branch-filter-name
    ```
 
 ### 5. Creating a Pull Request (PR)
@@ -70,7 +70,7 @@ Each team member should work on a separate branch dedicated to their filter or f
 Once your feature is complete:
 
 1. Go to the repository on GitHub, navigate to the **Pull Requests** tab, and click **New Pull Request**.
-2. Select `main` as the base branch and your branch (e.g., `feature-derivative-filter`) as the compare branch.
+2. Select `main` as the base branch and your branch (e.g., `branch-filter-name`) as the compare branch.
 3. Add a title and description for your PR, explaining what you’ve added or changed.
 4. Request a code review from at least one team member.
 
@@ -93,7 +93,7 @@ Periodically, pull the latest changes from `main` into your branch to avoid merg
 3. Switch back to your branch:
 
    ```bash
-   git checkout feature-derivative-filter
+   git checkout branch-filter-name
    ```
 
 4. Merge changes from `main` into your branch:
